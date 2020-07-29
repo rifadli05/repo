@@ -1,32 +1,100 @@
-Apache Friends
-Menu
-Applications
-FAQs
-HOW-TO Guides
-PHPInfo
-phpMyAdmin
-XAMPP Apache + MariaDB + PHP + Perl
-Welcome to XAMPP for Windows 7.4.8
-You have successfully installed XAMPP on this system! Now you can start using Apache, MariaDB, PHP and other components. You can find more info in the FAQs section or check the HOW-TO Guides for getting started with PHP applications.
-
-XAMPP is meant only for development purposes. It has certain configuration settings that make it easy to develop locally but that are insecure if you want to have your installation accessible to others. If you want have your XAMPP accessible from the internet, make sure you understand the implications and you checked the FAQs to learn how to protect your site. Alternatively you can use WAMP, MAMP or LAMP which are similar packages which are more suitable for production.
-
-Start the XAMPP Control Panel to check the server status.
-
-Community
-XAMPP has been around for more than 10 years – there is a huge community behind it. You can get involved by joining our Forums, adding yourself to the Mailing List, and liking us on Facebook, following our exploits on Twitter, or adding us to your Google+ circles.
-
-Contribute to XAMPP translation at translate.apachefriends.org.
-Can you help translate XAMPP for other community members? We need your help to translate XAMPP into different languages. We have set up a site, translate.apachefriends.org, where users can contribute translations.
-
-Install applications on XAMPP using Bitnami
-Apache Friends and Bitnami are cooperating to make dozens of open source applications available on XAMPP, for free. Bitnami-packaged applications include Wordpress, Drupal, Joomla! and dozens of others and can be deployed with one-click installers. Visit the Bitnami XAMPP page for details on the currently available apps.
-
-Bitnami XAMPP page
-Follow us on Twitter
-Like us on Facebook
-Add us to your G+ Circles
-Blog
-Privacy Policy
-CDN provided by 
-Copyright (c) 2018, Apache Friends
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Progate</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="responsive.css">
+  <link rel="shortcut icon" href="favicon.ico" >
+  <!--     ┬ ┬┌─┐  ┌─┐┬─┐┌─┐        -->
+  <!--     │││├┤   ├─┤├┬┘├┤         -->
+  <!--     └┴┘└─┘  ┴ ┴┴└─└─┘        -->
+  <!--     ╔═╗╦═╗╔═╗╔═╗╔═╗╔╦╗╔═╗    -->
+  <!--     ╠═╝╠╦╝║ ║║ ╦╠═╣ ║ ║╣     -->
+  <!--     ╩  ╩╚═╚═╝╚═╝╩ ╩ ╩ ╚═╝    -->
+</head>
+<body>
+    <header>
+      <div class="container">
+        <div class="header-left">
+          <img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png">
+        </div>
+        <span class="fa fa-bars menu-icon"></span>
+        <div class="header-right">
+          <a href="#">Lessons</a>
+          <a href="#">Sign in</a>
+          <a href="#" class="login">Log in</a>
+        </div>
+      </div>
+    </header>
+    <div class="top-wrapper">
+      <div class="container">
+        <h1>LEARN TO CODE.</h1>
+        <h1>LEARN TO BE CREATIVE.</h1>
+        <p>Progate is a web service where you can learn programming online.</p>
+        <p>We offer you a fully equipped coding environment to get you started.</p>
+        <div class="btn-wrapper">
+          <a href="#" class="btn signup">Sign up with Email</a>
+          <p>or</p>
+          <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Sign up with Facebook</a>
+          <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Sign up with Twitter</a>
+        </div>
+      </div>
+    </div>
+    <div class="lesson-wrapper">
+      <div class="container">
+        <div class="heading">
+          <h2>Learn Where to Get Started!</h2>
+        </div>
+        <div class="lessons">
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="https://prog-8.com/images/html/advanced/html.png">
+              <p>HTML & CSS</p>
+            </div>
+            <p class="text-contents">Languages used to build and design the appearances of your websites. HTML adds the structure, and CSS styles it.</p>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="https://prog-8.com/images/html/advanced/jQuery.png">
+              <p>jQuery</p>
+            </div>
+            <p class="text-contents">A fast, feature-rich and easy-to-use JavaScript library that handles animations and Ajax requests.</p>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="https://prog-8.com/images/html/advanced/ruby.png">
+              <p>Ruby</p>
+            </div>
+            <p class="text-contents">A dynamic, general-purpose language that is simple and productive. It is commonly used around the world to build web applications.</p>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="https://prog-8.com/images/html/advanced/php.png">
+              <p>PHP</p>
+            </div>
+            <p class="text-contents">An open source scripting language that can be embedded into HTML, and well suited for web development.</p>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+    <div class="message-wrapper">
+      <div class="container">
+        <div class="heading">
+          <h2>Ready to become an awesome programmer?</h2>
+          <h3>Let's learn to code, learn to be creative!</h3>
+        </div>
+        <span class="btn message">Start Learning</span>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <img src="https://prog-8.com/images/html/advanced/footer_logo.png">
+        <p>Learn to code, learn to be creative.</p>
+      </div>
+    </footer>
+  </body>
+</html>
